@@ -58,4 +58,12 @@
    initComputed,  生成vm._computedWatchers，并且为每个computedKey 生成一个watcher对象，vm[computedKey]  = func,  为watcher添加dependency 
 
    initWatch, options.watch生成watcher对象，添加到vm._watchers里
+   
+   
+4. mixin
+initMixin(Vue);
+stateMixin(Vue);
+eventsMixin(Vue);
+lifecycleMixin(Vue);
+renderMixin(Vue);  
 
